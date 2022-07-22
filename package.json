@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -15,6 +17,7 @@
     "react-animated-cursor": "^2.2.0",
     "react-dom": "^17.0.2",
     "react-hook-form": "^7.6.3",
+    "react-icons": "^4.4.0",
     "react-modal": "^3.13.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
@@ -52,5 +55,3 @@
     "direction-reveal": "^2.0.2"
   }
 }
-
-

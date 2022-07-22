@@ -34,7 +34,7 @@ const index = () => {
               </div>
 
               <div className='col-12 mt-1'>
-                <a className='button' href='CV.pdf' download>
+                <a className='button' href='MY-CV.pdf' download>
                   <span className='button-text'>Download CV</span>
                   <span className='button-icon fa fa-download'></span>
                 </a>
@@ -61,7 +61,7 @@ const index = () => {
         </div>
         {/* Skills Ends */}
 
-        <hr className='separator mt-1' />
+        <hr className='separator mt-5' />
 
         {/* Experience & Education Starts */}
         <div className='row'>

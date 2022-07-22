@@ -55,14 +55,8 @@
         border-top: 1px solid #fff;
       }
 
-      .c100 {
-        background-color: #252525;
-        &:after {
-          background-color: #000;
-        }
-        span {
-          color: #eee;
-        }
+      .skill-item {
+        border: 1px solid #ffb400;
       }
 
       h6 {
@@ -94,6 +88,25 @@
 
     .portfolio {
       background-color: #000;
+      // height: 100%;
+      // position: absolute;
+      // content: '';
+      // top: 0px;
+      // left: 0px;
+      // bottom: 0px;
+      // background-color: #222;
+      // z-index: 4;
+
+      // &::after {
+      //   position: relative;
+      //   content: '';
+      //   top: 0px;
+      //   left: 0px;
+      //   // right: 0px;
+      //   // bottom: 0px;
+      //   background-color: #000;
+      //   z-index: 0;
+      // }
     }
 
     .contact {
@@ -163,6 +176,16 @@
 
       .main-img-mobile {
         border-color: #252525;
+      }
+
+      .skill-container {
+        font-size: 15px;
+        grid-template-columns: auto auto !important;
+        row-gap: 20px;
+      }
+
+      .skill-item {
+        margin: 10px;
       }
     }
   }
